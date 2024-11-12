@@ -27,4 +27,4 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/holamundo_python:latest  
+          tags: ${{ secrets.DOCKER_USERNAME }}/holamundo_react:latest  
